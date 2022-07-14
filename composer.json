@@ -1,0 +1,23 @@
+{
+    "name": "hkulekci/skytable-laravel",
+    "autoload": {
+        "psr-4": {
+            "Skytable\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Haydar KULEKCI",
+            "email": "haydarkulekci@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "laravel/framework": "^9.19",
+        "hkulekci/skytable-php": "dev-master"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5"
+    }
+}
